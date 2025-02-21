@@ -1,0 +1,203 @@
+body{
+    background-color:rgba(244, 249, 252, 0.911);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    text-align: center;
+    
+   
+}
+.topo{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 41px;
+    margin-top: 31px;
+    color: rgb(66, 8, 121);
+    font-size: 14px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 265px;
+    margin-top: 30px;
+    color:  rgb(66, 8, 121);
+    font-size: 16px;
+}
+.logo{
+    height: 56px;
+    margin-left: 65px;
+    margin-top: 12px;
+}
+input[type = button]{
+    background-color:  rgb(66, 8, 121);
+    color: aliceblue;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(66, 8, 121);
+    margin-top: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.golpe{
+    width: 1200px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius:5px;
+}
+.meio{
+    justify-content: center;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    color: #5d3587;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth a {
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.auth .btn {
+    background: #7c3aed;
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    background: #7c3aed;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn.outline {
+    background: none;
+    border: 2px solid #7c3aed;
+    color: #7c3aed;
+}
+
+.adocao {
+    padding: 40px;
+    
+}
+
+.adocao h2 {
+    color: #5d3587;
+    font-size: 28px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #5d3587;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.destaque {
+    background: #f3e8ff;
+    border: 2px solid #7c3aed;
+}
+
+.button-container {
+    align-items: center;
+    gap: 10px;
+}
+.btn {
+    padding: 10px 200px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #6d2c91;
+    cursor: pointer;
+    align-items: center;
+}
+.btn-primary {
+    background-color: #6d2c91;
+    color: white;
+}
+.btn-secondary {
+    background-color: white;
+    color: #6d2c91;
+}
+.btn0{
+    padding: 10px 20px;
+    justify-content: right;
+    margin-left: 20px;
+}
